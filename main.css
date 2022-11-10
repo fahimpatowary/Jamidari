@@ -984,7 +984,7 @@ footer ul li a{
     color: var(--font_color);
 }
 .login .background_img{
-    background-image: url('./images/flat.jpg');
+    background-image: url('./Images/flat.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
