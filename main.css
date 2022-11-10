@@ -1,0 +1,1238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.CommonpaddingSection{
+    padding: 1rem 16px;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.title{
+    color: var(--logoColor-1);
+    font-weight: bolder;
+    margin-bottom: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+}
+
+/* for tab start*/
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 29px;
+        font-weight: 500;
+    }
+}
+/* for tab end*/
+
+/* for mobile start */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .DisNoneinPhone{
+        display: none;
+    }
+}
+/* for mobile end */
+
+/* for only mobile mobile start */
+@media screen and (max-width: 575px) {
+    .Mobile-50{
+        width: 50%;
+        margin: auto;
+    }
+}
+/* for mobile end */
+
+/* for computer 2 collum start*/
+@media screen and (min-width: 1024px) {
+    .computer-20{
+        width: 20%;
+    }
+}
+/* for computer 2 collum end*/
+
+/* ============================= */
+/* navigatin start */
+.TopNav {
+    width: 100%;
+    background-color: #3c516a;
+    color: #ffffff;
+    padding-top: 8px;   
+    padding-bottom: 6px;
+}
+
+.TopNav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 13px;
+}
+
+.FristUlNavTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FristUlNavTop li span{
+    font-weight: bold;
+}
+
+.SeconUl li:not(:last-child) {
+    margin-right: .3rem;
+    border-right: 1px solid ;
+}
+
+.FristUlNavTop li i{
+    font-size: 18px;
+    margin-right: .3rem;
+    color: white;
+}
+
+@media screen  and (max-width: 575px){
+    .FristUlNavTop li i{
+        font-size: 16px;
+    }
+
+    .TopNav ul{
+        font-size: 11px;
+    }
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-fluid button{
+    height: 50px;
+    margin-top: .7rem;
+}
+
+.NavImg img{
+    width: 110px;
+}
+
+.MenuBtn{
+    background: #fd883f;
+    border: none;
+}
+
+.MenuBtn:focus{
+    box-shadow: none;
+}
+
+.MenuBtn i{
+    font-size: 34px;
+    color: white;
+}
+
+.NavMenu{
+    z-index: 10;
+    background-color: var(--logoColor-1);
+    color: white !important;
+    border-radius: 10px 0 0 10px;
+    position: fixed;
+    width: 300px;
+    top: 6.5rem;
+    min-height: 83%;
+    height: 83%;
+    right: -3550px;
+    padding: 9px 24px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    box-shadow: rgb(255 255 255) 0px 0px 5px;
+}
+
+.dropdown-item{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.dropdown-item:hover{
+    background-color: #2c66af;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+.NavMenu a{
+    color: white !important;
+}
+
+.dropdown-menu{
+    text-align: center;
+    background-color: var(--HighColorLogo2);
+    color: white !important;
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.posionFixed{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #dae7f7;
+    padding-top: 0px;
+}
+/* navigatin end */
+/* ============================= */
+
+
+/* ======================================= */
+/* Heros style start */
+.HerosSection{
+    background-color: #4d8ddb;
+    color: white;
+    padding: 16px 0 0 0;
+    margin-bottom: 2.4rem;
+    margin-top: 102px;
+    box-shadow: 10px 10px 8px black;
+}
+
+@media screen and (max-width: 575px) {
+    .HerosSection {
+        margin-top: 98px;
+    }
+}
+
+.HerosDiv{
+    text-align: center;
+}
+
+.HErosTextPart{
+    margin: auto;
+    padding-top: 60px;
+    color: #eaf3ff;;
+}
+
+.HErosTextPart h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.HErosTextPart h3{
+    /* margin-bottom: 1rem; */
+    font-size: 30px;
+}
+
+.HErosTextPart p{
+    margin-bottom: 1.7rem;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.HerosBtn{
+    border: none;
+    padding: 7px 16px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    background: #e79855;
+    box-shadow: 0 0 4px #c5bfbb
+}
+
+.HerosBtn:hover{
+    background-color: var(--logoColor-2);
+    box-shadow: 0 0 6px #b3b3b3;
+    padding: 7px 20px;
+    color: white;
+}
+
+.HerosBg img{
+    width: 100%;
+    margin-bottom: -16px;
+}
+
+/* for tab  start */
+@media screen and (max-width: 1023px) {
+    .HErosTextPart p {
+        font-size: 14px;
+        color: #ededed;
+        margin: auto;
+        font-weight: 400;
+        margin-bottom: 1.3rem;
+    }
+}
+/* for tab  end */
+
+/* Specialties start  */
+.SpecialSection{
+    padding-top: 33px;
+    padding-bottom: 28px;
+}
+
+.SpecialDiv {
+    padding: 15px 20px;
+    border-radius: 7px;
+    /* box-shadow:  0 0 10px rgb(218, 217, 217); */
+    box-shadow: 0px 4px 8px rgb(227 227 227);
+    border: 1px solid #e1e1e1;
+    background: #f7f7f7;
+    /* border: 2px solid var(--logoColor-2); */
+}
+
+.SpecialDiv:hover {
+    /* background: var(--logoColor-2); */
+    border: 1px solid var(--logoColor-2);
+}
+
+.SpecialDiv .IconDIv{
+    padding: 10px;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    margin: auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 3px solid var(--logoColor-1);
+    background-color: white;
+}
+
+.SpecialDiv i{
+    font-size: 40px;
+    color: var(--logoColor-1);
+}
+
+.SpecialDiv h2{
+    font-size: 21px;
+    font-weight: 700;
+    color: #4e4e4e;
+    margin-bottom: 0rem;
+}
+/* Specialties end  */
+
+/* for mobile start */
+@media screen and (max-width: 767px) {
+    .HErosTextPart h1 {
+        font-size: 28px;
+    }
+
+    .HErosTextPart h3 {
+        font-size: 20px;
+    }
+
+    .HErosTextPart {
+        padding-top: 16px;
+        margin-bottom: 1.5rem;
+        padding-left: 16px;
+        margin-right: 15px;
+    }
+}
+/* for mobile end */
+
+/* Heros style end */
+/* ======================================= */
+
+/* ======================================== */
+/* oure servise start */
+.serviceSection{
+    text-align: center;
+}
+
+.ServiceDiv{
+    padding: 5px;
+    border: 1px solid none;
+    margin-bottom: .5rem;
+}
+
+.SupostDiv2{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 8px;    
+    background: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 8px 6px -6px #939393;
+}
+
+.SupostDiv2:hover{
+    background-color: var(--servocehover);
+    box-shadow: 0 8px 6px -6px #939393;
+    color: white;
+}
+
+.ServicesImg {
+    background-color: var(--logoColor-1);
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    height: 166px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ServiceDiv:hover .ServicesImg{
+    background-color: var(--servocehover);
+    color: white;
+}
+
+.ServicesImg img{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.ServicesDetiles p{
+    margin-bottom: 0;
+}
+
+.ServicesDetiles h6{
+    height: 41px;
+}
+
+.ServicesDetiles .title{
+    margin-bottom: 0rem;
+}
+
+/* chart  */
+.ServiceChart{
+    height: 400px;
+}
+
+.ChartTitle{
+    display: flex;
+}
+
+.ServiceTitel{
+    margin: 0;
+    background-color: var(--logoColor-1);
+    color: white;
+    padding: 7px;
+    margin: auto;
+    z-index: 10;
+}
+
+.ChartLast{
+    padding-right: 5%;
+}
+
+.Chart1st{
+    padding-left: 5%;
+}
+
+.ChartLast .ServiceDiv{
+    float: right;
+}
+
+.charCommon .ServiceDiv{
+    width: 74%;
+    border: 2px solid black;
+    background: #2c66af;
+    z-index: 18;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.charCommon .ServicesImg{
+    margin-bottom: 0rem;
+    width: 106px;
+    height: 84px;
+}
+
+.charCommon .ServicesDetiles{
+    color: white;
+}
+
+.charCommon .ServicesDetiles .title{
+    color: white;
+    margin-bottom: .5rem;
+    font-size: 17px;
+}
+
+.charCommon .ServicesDetiles p{
+    font-size: 12px;
+    color: rgb(216, 216, 216);
+}
+
+.ChartTitle{
+    position: relative;
+}
+
+.ShapTopRight{
+    position: absolute;
+    top: 105px;
+    right: -125px;
+    z-index: -10;
+}
+
+.ShapTopLeft{
+    position: absolute;
+    top: 109px;
+    left: -125px;
+    z-index: -10;
+}
+
+.ShapBottomRight{
+    position: absolute;
+    top: 205px;
+    right: -125px;
+    z-index: -10;
+}
+
+.ShapBottomLeft{
+    position: absolute;
+    top: 205px;
+    left: -125px;
+    z-index: -10;
+}
+
+/* chart Tab Start*/
+@media screen and (min-width: 1400px) {
+    .ShapTopRight{
+        top: 93px;
+    }
+
+    .ShapTopLeft{
+        top: 97px;
+    }
+
+    .ShapBottomRight{
+        top: 203px;
+    }
+
+    .ShapBottomLeft{
+        top: 203px;
+    }
+
+    .ChartLast{
+        padding-right: 10%;
+    }
+    
+    .Chart1st{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .ShapTopRight{
+        top: 118px;
+    }
+
+    .ShapTopLeft{
+        top: 121px;
+    }
+
+    .ShapBottomRight, .ShapBottomLeft{
+        top: 207px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ServiceTitel {
+        padding: 4px;
+    }
+    
+    .ShapTopRight{
+        top: 137px;
+        right: -105px;
+    }
+
+    .ShapTopLeft{
+        top: 140px;
+        left: -105px;
+    }
+
+    .ShapBottomRight{
+        top: 207px;
+        right: -100px;
+    }
+
+    .ShapBottomLeft{
+        top: 207px;
+        left: -100px;
+    }
+
+    .ServiceDiv{
+        padding: 10px;
+    }
+
+    .ServicesImg{
+        width: 163px;
+        height: 132px;
+    }
+}
+
+/* chart Tab End*/
+/* oure servise end */
+/* ============================ */
+
+/* ============================ */
+/* oure customer support start */
+.SuportImg{
+    height: 108px;
+    width: 129px;
+    margin: auto;    
+    background: var(--logoColor-1);
+    border-radius: 5px;
+    padding: 16px;
+    display: flex;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.SuportImg img{
+    height: auto;
+    width: 100%;
+}
+
+.SupostDiv{
+    padding: 10px 5px;
+}
+
+.SupostDiv:hover .SuportImg img{
+    transform: scale(1.2);
+}
+
+.SupostDiv:hover .SuportImg{
+    background-color: #519cf8;
+    border-color: #1b1b4a;
+}
+
+/* sisterComapay */
+.SisterSection{
+    background-color: var(--logoColor-1);
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}
+
+.SisterSection h4{
+    color: white !important;
+    margin-bottom: 1.5rem;
+}
+
+.SisterImgDiv{
+    width: 10%;
+    padding: 5px;
+}
+
+.SisterImgDiv div{
+    background-color: white;
+    height: 105px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.SisterImgDiv div img{
+    border-radius: 10px;
+}
+
+/* For tab start */
+@media screen and (max-width: 1023px) {
+    .SisterImgDiv{
+        width: 20%;
+        padding: 5px;
+    }
+    .SisterImgDiv div{
+        height: 134px;
+    }
+
+    .SpecilPerDiv:not(:last-child){
+        margin-bottom: 1.3rem;
+    }
+
+    .SpecialSection{
+        padding-top: 15px !important;
+        padding-bottom: 9px !important;
+    }
+}
+/* For tab end */
+
+/* For mobile start */
+@media screen and (max-width: 767px) {
+    .SisterImgDiv{
+        width: 33.33%;
+        padding: 5px;
+    }
+    .SisterImgDiv div{
+        height: 121px;
+    }
+
+    .SpecilPerDiv:not(:last-child){
+        margin-bottom: 25px;
+    }
+
+    .SpecialSection{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 440px) {
+    .SisterImgDiv div{
+        height: auto;
+        margin: auto;
+    }
+
+    .SisterImgDiv {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .SisterImgDiv div{
+        height: 105px;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .SisterImgDiv div{
+        height: 86px;
+    }
+}
+/* For mobile end */
+
+/* oure customer support end */
+/* ============================ */
+
+/* ============================= */
+/* social meida section start */
+.SocilaSection{
+    background-color: #1C202B;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+}
+
+.Width-11{
+    width: 11.11%;
+    padding: 5px;
+}
+
+.SocilDivWidth{
+    width: 5.5em;
+    margin: auto;
+    height: 5.5em;
+    border-radius: 10px 10px 0;
+    border: 2px solid #2c66af;
+    border: 2px solid #2c66af;
+    display: flex;
+    margin-bottom: .8rem;
+    border-color: white !important;
+}
+
+.SocilDivWidth i{
+    font-size: 40px;
+    color: blueviolet;
+    margin: auto;
+}
+
+.SocilaText h5{
+    color: white;
+}
+
+.facbook{
+    border-color: #3F5E9B;
+}
+
+.SocilDivWidth .fa-facebook-f{
+    color: #1877F2;
+}
+
+.linkden{
+    border-color: #247CBF;
+}
+
+.SocilDivWidth .fa-linkedin-in{
+    color: #247CBF;
+}
+
+.towter{
+    border-color: #159DD8;
+}
+
+.SocilDivWidth .fa-twitter{
+    color: #159DD8;
+}
+
+.youtube{
+    border-color: #BD2126;
+}
+
+.SocilDivWidth .fa-youtube{
+    color: #BD2126;
+}
+
+.pinterest{
+    border-color: #BD2126;
+}
+
+.SocilDivWidth .fa-pinterest-p{
+    color: #BD2126;
+}
+
+.tumblr{
+    border-color: #36465D;
+}
+
+.SocilDivWidth .fa-tumblr{
+    color: #dddedf;
+}
+
+.flickr{
+    border-color: #FF0084;
+}
+
+.SocilDivWidth .fa-flickr{
+    color: #FF0084;
+}
+
+.instragrem{
+    border-color: #E1D1C1;
+}
+
+.SocilDivWidth .fa-instagram{
+    color: #ED4000;
+}
+
+.behance{
+    border-color: #FFF;
+}
+
+.SocilDivWidth .fa-behance{
+    color: #FFF;
+}
+
+
+@media screen and (max-width: 991px) {
+    .Width-11{
+        width: 20%;
+        padding: 5px
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Width-11{
+        width: 33.33%;
+    }
+}
+/* social meida section end */
+/* ============================= */
+
+/* ============================= */
+/* footer start */
+footer {
+    color: #313743;
+}
+
+.FristFooter{
+    background-color: #313743;
+    text-align: left;
+    padding: 1.5rem  0;
+}
+
+.FristFooter h4{
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 50px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    text-align: left;
+}
+
+.FristFooter ul{
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.FristFooter ul li{
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 5s;
+}
+
+.FristFooter ul li:not(:last-child){
+    border-bottom: 1px solid #555;
+}
+
+.footerLi:hover .footera{
+    color: var(--logoColor-2);
+    padding-left: 10px;
+}
+
+.FristFooter ul li a{
+    color: #cbc9c9;
+}
+
+.FristFooter ul li a span{
+    margin-right: .5rem;
+}
+
+.lastFooter{
+    background-color: #363636;
+}
+
+footer ul li{
+    padding: 0 10px;
+    font: 13px/20px;
+    color: #666666;
+}
+
+footer ul li a{
+    color: #aaaaaa;
+}
+
+.dmca{
+    font-size: 14px;
+    color: white;
+}
+
+.dmca a{
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 575px) {
+    .FristFooter ul li{
+        text-align: center;
+    }
+    
+    .FristFooter{
+        padding: 0;
+    }
+
+    .FristFooter h4{
+        text-align: center;
+        padding: 0;
+        line-height: 30px;
+    }
+}
+/* footer end */
+/* ============================= */
+
+/* Login Page */
+.login_body{
+    background: linear-gradient(#62BDF4, #CEE5ED);
+}
+.login{
+    margin-top: 175px;
+    padding-bottom: 50px;
+}
+.login_heading{
+    color: var(--font_color);
+}
+.login .background_img{
+    background-image: url('./images/flat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.login_right_sight{
+    background-color: var(--footer_font);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 40px;
+}
+.login_right_sight img{
+    height: auto;
+    width: 50px;
+    animation: move 2s linear infinite alternate;
+}
+@keyframes move{
+    0%{
+        margin-left: 25px;
+    }
+    25%{
+        margin-left: 10px;
+    }
+    50%{
+        margin-left: 0;
+    }
+    75%{
+        margin-left: 10px;
+    }
+    100%{
+        margin-left: 25px;
+    }
+}
+.login_right_sight h2{
+    font-size: 40px;
+}
+.login_right_sight p{
+    font-size: 18px;
+}
+.form_padding{
+    padding: 0 120px;
+}
+.form_padding input{
+    height: 50px;
+}
+.form_padding button{
+    background-color: var(--logoColor-2);
+    padding: 15px 50px;
+    color: var(--footer_font);
+    font-size: 18px;
+}
+.form_padding button:hover{
+    background-color: var(--logoColor-1);
+    color: white;
+}
+.forget a{
+    text-decoration: none;
+}
+.forget a:hover,
+.have_account a{
+    color: var(--logoColor-1);
+}
+.have_account a {
+    text-decoration: none;
+}
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .form_padding{
+        padding: 0 0px;
+    }
+    .login_right_sight{
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    } 
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .form_padding{
+        padding: 0 0px;
+    }
+    .login_right_sight{
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    } 
+}
+/* Login Page */
+
+/* Register Page */
+.registar_body{
+    background: linear-gradient(#CEE5ED, #62BDF4);
+    height: 100%;
+}
+.register_form{
+    background-color: #ffffff;
+    padding: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 0;
+}
+.register{
+    margin-top: 175px;
+    padding-bottom: 50px;
+}
+.register input{
+    height: 50px;
+}
+.register h2{
+    color: var(--font_color);
+}
+.register img{
+    padding: 40px;
+    width: 100%;
+}
+.register a:hover {
+    color: var(--logoColor-1);
+}
+.submit_button button{
+    background-color: var(--logoColor-2);
+    border-radius: 5px;
+    padding: 15px 50px;
+    color: var(--footer_font);
+    font-size: 18px;
+}
+.submit_button button:hover{
+    background-color: var(--logoColor-1);
+    color: white;
+}
+.register_right_part{
+    background-color: #313743;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.register_right_part p{
+    padding: 0 30px;
+}
+.hor_line{
+    background-color: white;
+    color: white;
+}
+.register_left_part{
+    padding-left: 0;
+    padding-right: 0;
+}
+.registet_right_social_logo{
+    list-style: none;
+    padding-left: 0;
+}
+.registet_right_social_logo li{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+}
+.registet_right_social_logo li a{
+    font-size: 30px;
+    color: var(--footer_font);
+    transition: .5s;
+}
+.registet_right_social_logo .register_google:hover{
+    color: #FABB05;
+    transition: .5s;
+}
+.registet_right_social_logo .register_facebook:hover{
+    color: #0A6DE5;
+    transition: .5s;
+}
+.registet_right_social_logo .register_linked:hover{
+    color: #0077B5;
+    transition: .5s;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .register img{
+        padding-top: 50px;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px; 
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .register img{
+        padding-top: 50px;
+        height: auto;
+        width: 400px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
+
+/* Register Page */
+
+/* Forget Password */
+.forget_password_section{
+    margin-top: 175px;
+    padding-bottom: 50px;
+}
+.form_background{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.form_background h2{
+    color: var(--font_color);
+}
+.form_background .btn{
+    background-color: var(--logoColor-2);
+    padding: 10px 50px;
+    font-size: 18px;
+    color: var(--footer_font);
+}
+.forget_password{
+    background: linear-gradient(#CEE5ED, #62BDF4);
+}
+.forget_password_section input{
+    height: 50px;
+}
+
+/* Forget Password */
+
+
+:root {
+    --logoColor-1: #2c66af;
+    --logoColor-2: #ff863f;
+    --servocehover: #e79855;
+    --footer_font: white;
+}

@@ -1,0 +1,117 @@
+/* Register Page */
+
+.registar_body{
+    background: linear-gradient(#CEE5ED, #62BDF4);
+    height: 100vh;
+}
+.register_form{
+    background-color: #ffffff;
+    padding: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 0;
+}
+.register{
+    margin-top: 175px;
+    padding-bottom: 50px;
+}
+.register input{
+    height: 50px;
+}
+.register h2{
+    color: var(--font_color);
+}
+.register img{
+    padding: 40px;
+    width: 100%;
+}
+.submit_button button{
+    background-color: var(--hover_footer_font_color);
+    border-radius: 5px;
+    padding: 15px 50px;
+    color: var(--footer_font);
+    font-size: 18px;
+}
+.register_right_part{
+    background-color: var(--background);
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.register_right_part p{
+    padding: 0 30px;
+}
+.hor_line{
+    background-color: var(--footer_font);
+}
+.register_left_part{
+    padding-left: 0;
+    padding-right: 0;
+}
+.registet_right_social_logo{
+    list-style: none;
+}
+.registet_right_social_logo li{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0;
+}
+.registet_right_social_logo li a{
+    font-size: 30px;
+    color: var(--footer_font);
+    transition: .5s;
+}
+.registet_right_social_logo .register_google:hover{
+    color: #FABB05;
+    transition: .5s;
+}
+.registet_right_social_logo .register_facebook:hover{
+    color: #0A6DE5;
+    transition: .5s;
+}
+.registet_right_social_logo .register_linked:hover{
+    color: #0077B5;
+    transition: .5s;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .register img{
+        padding-top: 50px;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px; 
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .register img{
+        padding-top: 50px;
+        height: auto;
+        width: 400px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
+
+/* Register Page */

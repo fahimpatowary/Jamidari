@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/Jamidar.png" type="image/x-icon">
+    <title>JOMIDARI</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fronts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <!-- bootstrap file link --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"/>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- css file links -->
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body class="registar_body">
+    <!-- Navber Start -->
+    <nav class="navbar posionFixed">
+        <div class="TopNav">
+            <div class="container">
+                <ul class="FristUlNavTop">
+                    <!-- <marquee> -->
+                        <li><span>Email:</span> dmsbdfroupo@gmail.com</li>
+                        <li class="DisNoneinPhone"><span>Email:</span> dmsbdfroupo@gmail.com</li>
+                    <!-- </marquee> -->
+                    <li>
+                        <ul class="SeconUl">
+                            <li class=""><i class="fa-brands fa-facebook-f"></i></li>
+                            <li class=""><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li class=""><i class="fa-brands fa-youtube"></i></li>
+                            <li class=""><i class="fa-brands fa-instagram"></i></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container-fluid">
+                <a class="navbar-brand NavImg" href="./index.html"><img src="./Images/Jamidar.png" alt=""></a>
+                <button class="navbar-toggler MenuBtn" onclick="NacMenuhideshow()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars NavNemu1"></i>
+                    <i class="fa-solid fa-xmark NavCros"></i>
+                </button>
+        
+                <div class="collapse navbar-collapse NavMenu" id="navbarSupportedContent">  
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"  data-bs-toggle="dropdown"  aria-expanded="false">
+                            Channels
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Developers
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Insights
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Insights
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                Insights
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navber End -->
+
+    <!-- Registration Form -->
+        <div class="container register">
+            <div class="row">
+                <div class="col-lg-7 register_left_part">
+                    <div class="register_form">
+                        <h2 class="text-center mb-3">Register Form</h2>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="fname" class="mt-4">First Name</label>
+                                    <input id="fname" name="" type="text" class="form-control" placeholder="First Name" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="lname" class="mt-4">Last Name</label>
+                                    <input id="lname" name="" type="text" class="form-control" placeholder="Last Name" required>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="email" class="mt-4">Email</label>
+                                    <input id="email" name="" type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="password" class="mt-4">Password</label>
+                                    <input id="password" name="" type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="cpassword" class="mt-4">Confirm Password</label>
+                                    <input id="cpassword" name="" type="password" class="form-control" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+                            <div class="submit_button text-center">
+                                <button class="btn mt-5" type="submit">Submit</button>
+                            </div>
+                            
+                        </form>
+                        <p class="text-center mt-5">Have already an account ? <span><a href="./login.html">Login here</a></span></p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center register_right_part">
+                    <img src="./images/reg1.png" alt="">
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate adipisci totam veniam delectus tenetur labore hic porro natus, vero inventore nesciunt dignissimos perspiciatis sunt eligendi.</p>
+                    
+                    <hr class="hor_line">
+
+                    <h4 class="text-light mt-4">Account With</h4>
+
+                    <ul class="registet_right_social_logo">
+                        <li>
+                            <a href="" class="register_google">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="register_facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="register_linked">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    <!-- Registration Form -->
+
+
+    <!--Footer Start -->
+        <footer>
+            <!-- Frist Footer start -->
+            <div class=" FristFooter">
+                <div class="container CommonpaddingSection">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <h4>Buy And Sell</h4>
+
+                            <ul>
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span> Industrial Property Selling
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Personal property selling
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Plot buy&sell
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Flat buy&sell
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Property material buy&sell
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <h4>Document Processing</h4>
+
+                            <ul>
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span> <span class="liforpadding">SA, CS, RS, City Survey</span> 
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Name Transfer
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Old document processing
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>New document creation
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Inherited property clearance
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <h4>Real Estate Productss</h4>
+
+                            <ul>
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Complete Law support
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Find investors for the property
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Residential property advisor
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Commercial property advisor
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Govt. and Private project
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <h4>Property Marketing</h4>
+
+                            <ul>
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Rent advertisement
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Tenant management
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Real estate company promotion
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Vendor promotion
+                                    </a>
+                                </li>
+
+                                <li class="footerLi">
+                                    <a class="footera" href="#">
+                                        <span>-</span>Property advertisement setup
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Frist Footer start -->
+
+            <!-- last footer start-->
+            <div class="lastFooter">
+                <div class="container CommonpaddingSection">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">Terms And Comdition</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy And Cokies
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Refund Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Disclaimer</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="dmca">
+                        <span>© 2022-2023 DMS Bangladesh. All Rights Reserved. | Design & Development By:- 
+                            <a href="#"> Digital Marketing Solution (Pvt.) Ltd.</a>
+                        </span>
+                    </div>
+            </div>
+            </div>
+            <!-- last footer start-->
+        </footer>
+    <!-- Footer End -->
+
+
+    <!-- Fahim Js -->
+    <script src="./JavaScipt/Common.js"></script>
+
+    <!-- bootstap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</html>
