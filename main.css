@@ -52,55 +52,9 @@ ul li{
     display: inline;
 }
 
-/* for tab start*/
-@media screen and (max-width: 1023px) {
-    h1 {
-        font-size: 32px;
-        line-height: 39px;
-    }
-
-    h3 {
-        font-size: 25px;
-        line-height: 29px;
-        font-weight: 500;
-    }
-}
-/* for tab end*/
-
-/* for mobile start */
-@media screen and (max-width: 767px) {
-    h1 {
-        font-size: 30px;
-        line-height: 34px;
-    }
-
-    h3 {
-        font-size: 24px;
-        line-height: 26px;
-    }
-
-    .DisNoneinPhone{
-        display: none;
-    }
-}
-/* for mobile end */
-
 /* for only mobile mobile start */
-@media screen and (max-width: 575px) {
-    .Mobile-50{
-        width: 50%;
-        margin: auto;
-    }
-}
-/* for mobile end */
 
-/* for computer 2 collum start*/
-@media screen and (min-width: 1024px) {
-    .computer-20{
-        width: 20%;
-    }
-}
-/* for computer 2 collum end*/
+/* for mobile end */
 
 /* ============================= */
 /* navigatin start */
@@ -137,16 +91,6 @@ ul li{
     font-size: 18px;
     margin-right: .3rem;
     color: white;
-}
-
-@media screen  and (max-width: 575px){
-    .FristUlNavTop li i{
-        font-size: 16px;
-    }
-
-    .TopNav ul{
-        font-size: 11px;
-    }
 }
 
 .container-fluid{
@@ -232,6 +176,27 @@ ul li{
     background: #dae7f7;
     padding-top: 0px;
 }
+
+.LoginBtn button{
+    margin-right: 7px;
+}
+
+.LoginBtn button a{
+    color: white;
+}
+
+.LoginBtn button{
+    border: none;
+    outline: none;
+    background: var(--logoColor-1);
+    padding: 9px 18px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.LoginBtn button:hover{
+    background: var(--logoColor-2);
+}
 /* navigatin end */
 /* ============================= */
 
@@ -245,12 +210,6 @@ ul li{
     margin-bottom: 2.4rem;
     margin-top: 102px;
     box-shadow: 10px 10px 8px black;
-}
-
-@media screen and (max-width: 575px) {
-    .HerosSection {
-        margin-top: 98px;
-    }
 }
 
 .HerosDiv{
@@ -302,18 +261,6 @@ ul li{
     margin-bottom: -16px;
 }
 
-/* for tab  start */
-@media screen and (max-width: 1023px) {
-    .HErosTextPart p {
-        font-size: 14px;
-        color: #ededed;
-        margin: auto;
-        font-weight: 400;
-        margin-bottom: 1.3rem;
-    }
-}
-/* for tab  end */
-
 /* Specialties start  */
 .SpecialSection{
     padding-top: 33px;
@@ -362,25 +309,6 @@ ul li{
     margin-bottom: 0rem;
 }
 /* Specialties end  */
-
-/* for mobile start */
-@media screen and (max-width: 767px) {
-    .HErosTextPart h1 {
-        font-size: 28px;
-    }
-
-    .HErosTextPart h3 {
-        font-size: 20px;
-    }
-
-    .HErosTextPart {
-        padding-top: 16px;
-        margin-bottom: 1.5rem;
-        padding-left: 16px;
-        margin-right: 15px;
-    }
-}
-/* for mobile end */
 
 /* Heros style end */
 /* ======================================= */
@@ -540,83 +468,6 @@ ul li{
     z-index: -10;
 }
 
-/* chart Tab Start*/
-@media screen and (min-width: 1400px) {
-    .ShapTopRight{
-        top: 93px;
-    }
-
-    .ShapTopLeft{
-        top: 97px;
-    }
-
-    .ShapBottomRight{
-        top: 203px;
-    }
-
-    .ShapBottomLeft{
-        top: 203px;
-    }
-
-    .ChartLast{
-        padding-right: 10%;
-    }
-    
-    .Chart1st{
-        padding-left: 10%;
-    }
-}
-
-@media screen and (max-width: 1199px) {
-    .ShapTopRight{
-        top: 118px;
-    }
-
-    .ShapTopLeft{
-        top: 121px;
-    }
-
-    .ShapBottomRight, .ShapBottomLeft{
-        top: 207px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .ServiceTitel {
-        padding: 4px;
-    }
-    
-    .ShapTopRight{
-        top: 137px;
-        right: -105px;
-    }
-
-    .ShapTopLeft{
-        top: 140px;
-        left: -105px;
-    }
-
-    .ShapBottomRight{
-        top: 207px;
-        right: -100px;
-    }
-
-    .ShapBottomLeft{
-        top: 207px;
-        left: -100px;
-    }
-
-    .ServiceDiv{
-        padding: 10px;
-    }
-
-    .ServicesImg{
-        width: 163px;
-        height: 132px;
-    }
-}
-
-/* chart Tab End*/
 /* oure servise end */
 /* ============================ */
 
@@ -669,84 +520,26 @@ ul li{
     padding: 5px;
 }
 
+.SisterImgDiv a{
+    height: 100%;
+    width: 100%;
+}
+
 .SisterImgDiv div{
     background-color: white;
     height: 105px;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
-
 
 .SisterImgDiv div img{
     border-radius: 10px;
+    height: 100%;
+    width: 100%;
 }
-
-/* For tab start */
-@media screen and (max-width: 1023px) {
-    .SisterImgDiv{
-        width: 20%;
-        padding: 5px;
-    }
-    .SisterImgDiv div{
-        height: 134px;
-    }
-
-    .SpecilPerDiv:not(:last-child){
-        margin-bottom: 1.3rem;
-    }
-
-    .SpecialSection{
-        padding-top: 15px !important;
-        padding-bottom: 9px !important;
-    }
-}
-/* For tab end */
-
-/* For mobile start */
-@media screen and (max-width: 767px) {
-    .SisterImgDiv{
-        width: 33.33%;
-        padding: 5px;
-    }
-    .SisterImgDiv div{
-        height: 121px;
-    }
-
-    .SpecilPerDiv:not(:last-child){
-        margin-bottom: 25px;
-    }
-
-    .SpecialSection{
-        padding-top: 15px !important;
-        padding-bottom: 15px !important;
-    }
-}
-
-@media screen and (max-width: 767px) and (min-width: 440px) {
-    .SisterImgDiv div{
-        height: auto;
-        margin: auto;
-    }
-
-    .SisterImgDiv {
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 393px) {
-    .SisterImgDiv div{
-        height: 105px;
-    }
-}
-
-@media screen and (max-width: 337px) {
-    .SisterImgDiv div{
-        height: 86px;
-    }
-}
-/* For mobile end */
 
 /* oure customer support end */
 /* ============================ */
@@ -858,19 +651,6 @@ ul li{
     color: #FFF;
 }
 
-
-@media screen and (max-width: 991px) {
-    .Width-11{
-        width: 20%;
-        padding: 5px
-    }
-}
-
-@media screen and (max-width: 520px) {
-    .Width-11{
-        width: 33.33%;
-    }
-}
 /* social meida section end */
 /* ============================= */
 
@@ -914,7 +694,7 @@ footer {
     transition: all 5s;
 }
 
-.FristFooter ul li:not(:last-child){
+.FristFooter ul li{
     border-bottom: 1px solid #555;
 }
 
@@ -952,22 +732,6 @@ footer ul li a{
 
 .dmca a{
     color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 575px) {
-    .FristFooter ul li{
-        text-align: center;
-    }
-    
-    .FristFooter{
-        padding: 0;
-    }
-
-    .FristFooter h4{
-        text-align: center;
-        padding: 0;
-        line-height: 30px;
-    }
 }
 /* footer end */
 /* ============================= */
@@ -1050,28 +814,6 @@ footer ul li a{
 }
 .have_account a {
     text-decoration: none;
-}
-@media only screen and (min-width: 280px) and (max-width: 540px){
-    .form_padding{
-        padding: 0 0px;
-    }
-    .login_right_sight{
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-    } 
-}
-@media only screen and (min-width: 667px) and (max-width: 950px){
-    .form_padding{
-        padding: 0 0px;
-    }
-    .login_right_sight{
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-    } 
 }
 /* Login Page */
 
@@ -1160,45 +902,6 @@ footer ul li a{
     transition: .5s;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 540px){
-    .register img{
-        padding-top: 50px;
-    }
-    .register_form{
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 0px; 
-    }
-    .register_right_part{
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 0px;
-    }
-    .register img{
-        padding-top: 0;
-    }
-}
-@media only screen and (min-width: 667px) and (max-width: 950px){
-    .register img{
-        padding-top: 50px;
-        height: auto;
-        width: 400px;
-    }
-    .register img{
-        padding-top: 0;
-    }
-    .register_form{
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 0px;
-    }
-    .register_right_part{
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-top-right-radius: 0px;
-    }
-}
-
 /* Register Page */
 
 /* Forget Password */
@@ -1228,6 +931,315 @@ footer ul li a{
 }
 
 /* Forget Password */
+
+/* for computer start*/
+@media screen and (min-width: 1024px) {
+    .computer-20{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .ShapTopRight{
+        top: 93px;
+    }
+
+    .ShapTopLeft{
+        top: 97px;
+    }
+
+    .ShapBottomRight{
+        top: 203px;
+    }
+
+    .ShapBottomLeft{
+        top: 203px;
+    }
+
+    .ChartLast{
+        padding-right: 10%;
+    }
+    
+    .Chart1st{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .ShapTopRight{
+        top: 118px;
+    }
+
+    .ShapTopLeft{
+        top: 121px;
+    }
+
+    .ShapBottomRight, .ShapBottomLeft{
+        top: 207px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 29px;
+        font-weight: 500;
+    }
+
+    .HErosTextPart p {
+        font-size: 14px;
+        color: #ededed;
+        margin: auto;
+        font-weight: 400;
+        margin-bottom: 1.3rem;
+    }
+
+    .SisterImgDiv{
+        width: 20%;
+        padding: 5px;
+    }
+    .SisterImgDiv div{
+        height: 134px;
+    }
+
+    .SpecilPerDiv{
+        margin-bottom: 1.3rem;
+    }
+
+    .SpecialSection{
+        padding-top: 15px !important;
+        padding-bottom: 9px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ServiceTitel {
+        padding: 4px;
+    }
+    
+    .ShapTopRight{
+        top: 137px;
+        right: -105px;
+    }
+
+    .ShapTopLeft{
+        top: 140px;
+        left: -105px;
+    }
+
+    .ShapBottomRight{
+        top: 207px;
+        right: -100px;
+    }
+
+    .ShapBottomLeft{
+        top: 207px;
+        left: -100px;
+    }
+
+    .ServiceDiv{
+        padding: 10px;
+    }
+
+    .ServicesImg{
+        width: 163px;
+        height: 132px;
+    } 
+
+    .FristFooter ul{
+        margin-bottom: 1.2rem !important;
+    }
+
+    .Width-11{
+        width: 20%;
+        padding: 5px
+    }
+}
+/* for computer end*/
+
+/* For mobile start */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .DisNoneinPhone{
+        display: none !important;
+    }
+
+    .SisterImgDiv{
+        width: 33.33%;
+        padding: 5px;
+    }
+    .SisterImgDiv div{
+        height: 121px;
+    }
+
+    .SpecilPerDiv:not(:last-child){
+        margin-bottom: 25px;
+    }
+
+    .SpecialSection{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .ServiceDiv{
+        max-width: 393px;
+    }
+
+    .HErosTextPart h1 {
+        font-size: 28px;
+    }
+
+    .HErosTextPart h3 {
+        font-size: 20px;
+    }
+
+    .HErosTextPart {
+        padding-top: 16px;
+        margin-bottom: 1.5rem;
+        padding-left: 16px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 440px) {
+    .SisterImgDiv div{
+        height: 100%;
+        margin: auto;
+    }
+
+    .SisterImgDiv {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .Mobile-50{
+        width: 50%;
+        margin: auto;
+    }
+
+    .FristUlNavTop li i{
+        font-size: 16px;
+    }
+
+    .TopNav ul{
+        font-size: 11px;
+    }
+
+    .HerosSection {
+        margin-top: 98px;
+    }
+    .FristFooter ul li{
+        text-align: center;
+    }
+
+    .FristFooter h4{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .Width-11{
+        width: 33.33%;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .SisterImgDiv div{
+        height: 105px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .LoginBtn button{
+        display: none;
+    }
+
+    .login-btn-2 {
+        display: block !important;
+        padding: 4px 22px;
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 337px) {
+    .SisterImgDiv div{
+        height: 86px;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px){
+    .form_padding{
+        padding: 0 0px;
+    }
+    .login_right_sight{
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    } 
+    .register img{
+        padding-top: 50px;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px; 
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 950px){
+    .form_padding{
+        padding: 0 0px;
+    }
+    .login_right_sight{
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    } 
+    .register img{
+        padding-top: 50px;
+        height: auto;
+        width: 400px;
+    }
+    .register img{
+        padding-top: 0;
+    }
+    .register_form{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .register_right_part{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
 
 
 :root {
