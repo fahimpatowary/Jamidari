@@ -47,10 +47,27 @@
         <div class="container">
             <div class="container-fluid">
                 <a class="navbar-brand NavImg" href="./index.html"><img src="./Images/Jamidar.png" alt=""></a>
-                <button class="navbar-toggler MenuBtn" onclick="NacMenuhideshow()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars NavNemu1"></i>
-                    <i class="fa-solid fa-xmark NavCros"></i>
-                </button>
+                
+                <div class="d-flex text-center align-items-center">
+                    <div class="mr-5 LoginBtn">
+                        <button>
+                            <a href="./login.html">
+                                Login/Register
+                            </a>
+                        </button>
+
+                        <button class="login-btn-2 d-none">
+                            <a href="./login.html">
+                                Login
+                            </a>
+                        </button>
+                    </div>
+                    
+                    <button class="navbar-toggler MenuBtn" onclick="NacMenuhideshow()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars NavNemu1"></i>
+                        <i class="fa-solid fa-xmark NavCros"></i>
+                    </button>
+                </div>
         
                 <div class="collapse navbar-collapse NavMenu" id="navbarSupportedContent">  
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
