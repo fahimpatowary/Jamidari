@@ -197,6 +197,23 @@ ul li{
 .LoginBtn button:hover{
     background: var(--logoColor-2);
 }
+
+.MobileLogin div:not(:last-child){
+    border-right: 1px solid white;
+}
+
+.MobileLogin a{
+    color: white;
+}
+
+.MobileLogin a:hover{
+    color: var(--logoColor-2);
+}
+
+
+/* .MobileLogin a:{
+    color: white;
+} */
 /* navigatin end */
 /* ============================= */
 
@@ -1086,7 +1103,7 @@ footer ul li a{
         height: 121px;
     }
 
-    .SpecilPerDiv:not(:last-child){
+    .SpecilPerDiv{
         margin-bottom: 25px;
     }
 
@@ -1096,7 +1113,7 @@ footer ul li a{
     }
 
     .ServiceDiv{
-        max-width: 393px;
+        max-width: 370px;
     }
 
     .HErosTextPart h1 {
@@ -1133,6 +1150,14 @@ footer ul li a{
         margin: auto;
     }
 
+    .SpecilPerDiv{
+        margin-bottom: 1rem;
+    }
+
+    .HideInPhone{
+        display: none;
+    }
+
     .FristUlNavTop li i{
         font-size: 16px;
     }
@@ -1151,6 +1176,16 @@ footer ul li a{
     .FristFooter h4{
         text-align: center;
     }
+
+    .LoginBtn button{
+        display: none;
+    }
+
+    .login-btn-2 {
+        display: block !important;
+        padding: 4px 22px;
+        font-size: 16px !important;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -1162,18 +1197,6 @@ footer ul li a{
 @media screen and (max-width: 393px) {
     .SisterImgDiv div{
         height: 105px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .LoginBtn button{
-        display: none;
-    }
-
-    .login-btn-2 {
-        display: block !important;
-        padding: 4px 22px;
-        font-size: 16px !important;
     }
 }
 
