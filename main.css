@@ -204,25 +204,30 @@ ul li{
     padding-top: 0px;
 }
 
+.LoginBtn{
+    margin-right: 2rem;
+}
+
 .LoginBtn button{
     margin-right: 7px;
 }
 
 .LoginBtn button a{
-    color: white;
+    color: var(--logoColor-1);
 }
 
 .LoginBtn button{
     border: none;
     outline: none;
-    background: var(--logoColor-1);
+    background: #2c66af00;
     padding: 9px 18px;
     font-weight: bold;
     border-radius: 7px;
+    color: black;
 }
 
-.LoginBtn button:hover{
-    background: var(--logoColor-2);
+.LoginBtn button a:hover{
+    color: var(--logoColor-2);
 }
 
 .MobileLogin div:not(:last-child){
@@ -230,7 +235,7 @@ ul li{
 }
 
 .MobileLogin a{
-    color: white;
+    color: #2c66af;
 }
 
 .MobileLogin a:hover{
@@ -1227,11 +1232,11 @@ footer ul li a{
         padding: 4px 22px;
         font-size: 16px !important;
     }
-/* 
+
     .container{
         padding-left: 0px !important; 
         padding-right: 0px !important;
-    } */
+    }
 
     .container-fluid{
         padding-right: 20px;
