@@ -116,6 +116,10 @@ ul li{
     background-color: #E11A21;
 }
 
+.TopNav ul .fa-twitter:hover{
+    background-color: #4FC5F7;
+}
+
 .FristUlNavTop{
     display: flex;
     justify-content: space-between;
