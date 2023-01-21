@@ -87,7 +87,7 @@ ul li{
 /* navigatin start */
 .TopNav {
     width: 100%;
-    background-color: #3c516a;
+    background-color: #002E5B;
     color: #ffffff;
     padding-top: 8px;   
     padding-bottom: 6px;
@@ -97,7 +97,24 @@ ul li{
     margin: 0;
     padding: 0;
     width: 100%;
-    font-size: 13px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.TopNav ul .fa-facebook-f:hover{
+    background-color: #1877F2;
+}
+
+.TopNav ul .fa-linkedin-in:hover{
+    background-color: #0070B1;
+}
+
+.TopNav ul .fa-youtube:hover{
+    background-color: #F60000;
+}
+
+.TopNav ul .fa-instagram:hover{
+    background-color: #E11A21;
 }
 
 .FristUlNavTop{
@@ -115,9 +132,10 @@ ul li{
 }
 
 .FristUlNavTop li i{
-    font-size: 18px;
-    margin-right: .3rem;
+    font-size: 20px;
+    margin-right: 0.3rem;
     color: white;
+    padding: 5px 6px;
 }
 
 .container-fluid{
@@ -204,14 +222,6 @@ ul li{
     padding-top: 0px;
 }
 
-.LoginBtn{
-    margin-right: 2rem;
-}
-
-.LoginBtn button{
-    margin-right: 7px;
-}
-
 .LoginBtn button a{
     color: var(--logoColor-1);
 }
@@ -224,10 +234,16 @@ ul li{
     font-weight: bold;
     border-radius: 7px;
     color: black;
+    font-size: 19px;
+    margin-right: 7px;
 }
 
-.LoginBtn button a:hover{
-    color: var(--logoColor-2);
+.LoginBtn button:hover{
+    background: var(--logoColor-2);
+}
+
+.LoginBtn button:hover a{
+    color: white;
 }
 
 .MobileLogin div:not(:last-child){
@@ -235,7 +251,7 @@ ul li{
 }
 
 .MobileLogin a{
-    color: #2c66af;
+    color: white;
 }
 
 .MobileLogin a:hover{
@@ -376,7 +392,7 @@ ul li{
 
 .SupostDiv2{
     width: 100%;
-    padding: 10px 5px;
+    padding: 23px 5px;
     border-radius: 8px;    
     background: #f7f7f7;
     border: 1px solid #d1d1d1;
@@ -422,7 +438,8 @@ ul li{
 }
 
 .ServicesDetiles .title{
-    margin-bottom: 0rem;
+    margin-bottom: 0.54rem;
+    font-size: 20px;
 }
 
 /* chart  */
@@ -556,7 +573,7 @@ ul li{
 .SisterSection{
     background-color: var(--logoColor-1);
     padding-top: 2.3rem;
-    padding-bottom: 2.3rem;
+    padding-bottom: 3rem;
 }
 
 .SisterSection h4{
@@ -988,11 +1005,23 @@ footer ul li a{
     }
 
     .COMMERCIALSERVICE{
-        margin-top: 1rem;
+        margin-top: 2rem;
         padding-top: 2rem;
-        padding-bottom: 2rem;
-        margin-bottom: 1rem;
+        padding-bottom: 3rem;
+        margin-bottom: 2rem;
         background: #f1f1f1;
+    }
+
+    .suporrt{
+        margin-bottom: .5rem;
+    }
+
+    .suporrt .title{
+        margin-bottom: 1rem;
+    }
+
+    .SisterSection .title{
+        margin-bottom: 2rem;
     }
 }
 
