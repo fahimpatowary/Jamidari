@@ -87,9 +87,9 @@ ul li{
 /* navigatin start */
 .TopNav {
     width: 100%;
-    background-color: #002E5B;
-    color: #ffffff;
-    padding-top: 8px;   
+    background-color: #9dbade3b;
+    color: #000000;
+    padding-top: 8px;
     padding-bottom: 6px;
 }
 
@@ -136,18 +136,24 @@ ul li{
 
 .FristUlNavTop li i{
     margin-right: 0.3rem;
-    color: white;
+    color: rgb(29, 29, 29);
     padding: 5px 6px;
+    border-radius: 5px;
+}
+
+.FristUlNavTop li i:hover{
+    color: rgb(255, 255, 255);
 }
 
 .container-fluid{
     display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
     justify-content: space-between;
 }
 
 .container-fluid button{
-    height: 50px;
-    margin-top: .7rem;
+    height: 44px;
 }
 
 .NavImg img{
@@ -164,7 +170,7 @@ ul li{
 }
 
 .MenuBtn i{
-    font-size: 34px;
+    font-size: 26px;
     color: white;
 }
 
@@ -222,6 +228,7 @@ ul li{
     width: 100%;
     background: #dae7f7;
     padding-top: 0px;
+    padding-bottom: 0;
 }
 
 .LoginBtn button a{
@@ -572,7 +579,7 @@ ul li{
 
 /* sisterComapay */
 .SisterSection{
-    background-color: var(--logoColor-1);
+    background-color: #2c66af69;
     padding-top: 2.3rem;
     padding-bottom: 3rem;
 }
@@ -606,6 +613,7 @@ ul li{
     border-radius: 10px;
     height: 100%;
     width: 100%;
+    box-shadow: 5px 5px 5px #29282866;;
 }
 
 /* oure customer support end */
@@ -1010,7 +1018,7 @@ footer ul li a{
         padding-top: 2rem;
         padding-bottom: 3rem;
         margin-bottom: 2rem;
-        background: #f1f1f1;
+        background: #DFE6EF;
     }
 
     .suporrt{
